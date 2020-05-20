@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED64A2B72471686E0040B7A6 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED64A2B62471686E0040B7A6 /* StartUpViewController.swift */; };
+		ED64A2BD2472D62A0040B7A6 /* AddMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED64A2BC2472D62A0040B7A6 /* AddMenuViewController.swift */; };
 		ED87A7EC2470112A00869C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A7EB2470112A00869C88 /* AppDelegate.swift */; };
 		ED87A7EE2470112A00869C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A7ED2470112A00869C88 /* SceneDelegate.swift */; };
 		ED87A7F02470112A00869C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A7EF2470112A00869C88 /* ViewController.swift */; };
@@ -15,6 +17,7 @@
 		ED87A7F82470112D00869C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED87A7F62470112D00869C88 /* LaunchScreen.storyboard */; };
 		ED87A8032470112D00869C88 /* MenuMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A8022470112D00869C88 /* MenuMakerTests.swift */; };
 		ED87A80E2470112D00869C88 /* MenuMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A80D2470112D00869C88 /* MenuMakerUITests.swift */; };
+		ED87A8222470133E00869C88 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A8212470133E00869C88 /* PreviewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED64A2B62471686E0040B7A6 /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
+		ED64A2BC2472D62A0040B7A6 /* AddMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMenuViewController.swift; sourceTree = "<group>"; };
 		ED87A7E82470112A00869C88 /* MenuMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED87A7EB2470112A00869C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED87A7ED2470112A00869C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,7 @@
 		ED87A8092470112D00869C88 /* MenuMakerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MenuMakerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED87A80D2470112D00869C88 /* MenuMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMakerUITests.swift; sourceTree = "<group>"; };
 		ED87A80F2470112D00869C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED87A8212470133E00869C88 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				ED87A7EB2470112A00869C88 /* AppDelegate.swift */,
 				ED87A7ED2470112A00869C88 /* SceneDelegate.swift */,
+				ED64A2B62471686E0040B7A6 /* StartUpViewController.swift */,
 				ED87A7EF2470112A00869C88 /* ViewController.swift */,
+				ED64A2BC2472D62A0040B7A6 /* AddMenuViewController.swift */,
+				ED87A8212470133E00869C88 /* PreviewViewController.swift */,
 				ED87A7F12470112A00869C88 /* Main.storyboard */,
 				ED87A7F42470112D00869C88 /* Assets.xcassets */,
 				ED87A7F62470112D00869C88 /* LaunchScreen.storyboard */,
@@ -261,6 +270,9 @@
 			files = (
 				ED87A7F02470112A00869C88 /* ViewController.swift in Sources */,
 				ED87A7EC2470112A00869C88 /* AppDelegate.swift in Sources */,
+				ED64A2BD2472D62A0040B7A6 /* AddMenuViewController.swift in Sources */,
+				ED87A8222470133E00869C88 /* PreviewViewController.swift in Sources */,
+				ED64A2B72471686E0040B7A6 /* StartUpViewController.swift in Sources */,
 				ED87A7EE2470112A00869C88 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
