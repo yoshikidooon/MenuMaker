@@ -1,256 +1,498 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="KTEGAKI.ttf">
+            <string>KAWAIITEGAKIMOJI</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_1593" translatesAutoresizingMaskIntoConstraints="NO" id="EEs-Mb-owa">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="644"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_1593" translatesAutoresizingMaskIntoConstraints="NO" id="EEs-Mb-owa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="592"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vV7-9z-1bt">
-                                <rect key="frame" x="16" y="725" width="149" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu Maker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74f-35-zHB">
+                                <rect key="frame" x="55.666666666666657" y="638" width="264" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="Bmu-hl-Qp4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vV7-9z-1bt">
+                                <rect key="frame" x="30" y="698" width="315" height="60"/>
                                 <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="hAI-wm-sjc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="36"/>
                                 <state key="normal" title="新規作成">
                                     <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="tMf-50-8Iz" kind="presentation" modalPresentationStyle="fullScreen" id="Zu6-Nl-bEh"/>
+                                    <segue destination="1b7-Ne-Xcu" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="GyZ-Mv-F1j"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu Maker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74f-35-zHB">
-                                <rect key="frame" x="33" y="618" width="309" height="118"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
-                                <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gET-yG-Prb">
-                                <rect key="frame" x="204" y="725" width="155" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huJ-ra-scT">
+                                <rect key="frame" x="15" y="602" width="60" height="35"/>
                                 <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Menu一覧">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="ure-iR-yqC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="23"/>
+                                <state key="normal" title="ヘルプ">
                                     <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <segue destination="uH0-aJ-GvZ" kind="presentation" modalPresentationStyle="fullScreen" id="1M5-d5-O8p"/>
+                                </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vV7-9z-1bt" secondAttribute="trailing" constant="30" id="0Cr-PH-Dqm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vV7-9z-1bt" secondAttribute="bottom" constant="20" id="7Mk-p3-ali"/>
+                            <constraint firstAttribute="trailing" secondItem="EEs-Mb-owa" secondAttribute="trailing" id="86v-97-DjI"/>
+                            <constraint firstItem="74f-35-zHB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AXG-BQ-cp3"/>
+                            <constraint firstItem="huJ-ra-scT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="Hud-fZ-AOI"/>
+                            <constraint firstItem="74f-35-zHB" firstAttribute="top" secondItem="huJ-ra-scT" secondAttribute="bottom" constant="1" id="OPq-eI-exs"/>
+                            <constraint firstItem="EEs-Mb-owa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="SC2-te-NC7"/>
+                            <constraint firstItem="huJ-ra-scT" firstAttribute="top" secondItem="EEs-Mb-owa" secondAttribute="bottom" constant="10" id="Tta-G4-JdB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="74f-35-zHB" secondAttribute="bottom" constant="80" id="XTB-4p-pBe"/>
+                            <constraint firstAttribute="bottom" secondItem="EEs-Mb-owa" secondAttribute="bottom" constant="220" id="hhM-Bg-bxA"/>
+                            <constraint firstItem="EEs-Mb-owa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iND-8Q-5hV"/>
+                            <constraint firstItem="vV7-9z-1bt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="qMz-hL-D3q"/>
+                            <constraint firstItem="vV7-9z-1bt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vmB-3V-yRU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <segue destination="uH0-aJ-GvZ" kind="presentation" identifier="SegueToVideoView" modalPresentationStyle="fullScreen" id="rNw-88-aIS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="115.84821428571428"/>
+            <point key="canvasLocation" x="122" y="115"/>
         </scene>
-        <!--Title-->
-        <scene sceneID="2fA-BN-7j0">
+        <!--AV Player View Controller-->
+        <scene sceneID="8sm-GO-A9T">
             <objects>
-                <viewController id="OR0-HU-7wq" customClass="AddMenuViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OfT-i8-elT">
+                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="uH0-aJ-GvZ" customClass="TutorialVideoPlayerViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X8d-rz-7zT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="878"/>
+        </scene>
+        <!--About App View Controller-->
+        <scene sceneID="hwJ-d6-FKb">
+            <objects>
+                <viewController id="gGQ-xb-4n7" customClass="AboutAppViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="LPr-M1-Cda">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="u3N-hd-Q1K">
-                                <rect key="frame" x="60" y="265" width="255" height="34"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swZ-Yg-CKY">
+                                <rect key="frame" x="67.666666666666686" y="698" width="240" height="60"/>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="ae9-iz-5n6"/>
+                                    <constraint firstAttribute="width" constant="240" id="tLM-v4-4vu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="36"/>
+                                <state key="normal" title="使い方バッチリ">
+                                    <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="toback:" destination="gGQ-xb-4n7" eventType="touchUpInside" id="vLt-Ko-C5X"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このアプリの使い方" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vTf-bK-dMA">
+                                <rect key="frame" x="71.666666666666686" y="64" width="232" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="KwI-2K-wCE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
+                                <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NHj-j8-PpI">
+                                <rect key="frame" x="16" y="81" width="343" height="518"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G0F-bG-B0y">
-                                <rect key="frame" x="60" y="187" width="81" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="swZ-Yg-CKY" firstAttribute="centerX" secondItem="LPr-M1-Cda" secondAttribute="centerX" id="Jzw-qW-nEb"/>
+                            <constraint firstItem="vTf-bK-dMA" firstAttribute="top" secondItem="Hge-ws-zqe" secondAttribute="top" constant="20" id="d0L-S8-HB7"/>
+                            <constraint firstItem="Hge-ws-zqe" firstAttribute="bottom" secondItem="swZ-Yg-CKY" secondAttribute="bottom" constant="20" id="kUv-QX-eqf"/>
+                            <constraint firstItem="vTf-bK-dMA" firstAttribute="centerX" secondItem="LPr-M1-Cda" secondAttribute="centerX" id="yoD-f4-mDu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Hge-ws-zqe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vbW-5x-XbH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1716" y="52"/>
+        </scene>
+        <!--Choose Menu View Controller-->
+        <scene sceneID="1Zl-YO-51t">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="1b7-Ne-Xcu" customClass="chooseMenuViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ns5-4j-hWK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cJd-vZ-ehi">
+                                <rect key="frame" x="18.333333333333343" y="117" width="338.33333333333326" height="476"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="the-H9-40a">
+                                <rect key="frame" x="210" y="613" width="120" height="48"/>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ADo-Kb-Igu"/>
+                                    <constraint firstAttribute="width" constant="120" id="qcv-Zw-vFN"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="⇨">
+                                    <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="tugi" destination="1b7-Ne-Xcu" eventType="touchUpInside" id="v9J-bQ-f8i"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l1J-MY-Gt5">
+                                <rect key="frame" x="30" y="62" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Jna-Sk-aGg"/>
+                                    <constraint firstAttribute="width" constant="80" id="nP4-aX-KiI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="↩︎">
+                                    <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="back" destination="1b7-Ne-Xcu" eventType="touchUpInside" id="Y60-CP-7Wp"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="unJ-fS-YF5">
+                                <rect key="frame" x="45" y="613" width="120" height="48"/>
+                                <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="8lk-Wr-roa"/>
+                                    <constraint firstAttribute="width" constant="120" id="foF-gU-qjM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="⇦">
+                                    <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="mae" destination="1b7-Ne-Xcu" eventType="touchUpInside" id="C2x-Q4-lGU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="menu1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te9-Um-zXy">
+                                <rect key="frame" x="146" y="54" width="83" height="35"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                        <viewLayoutGuide key="safeArea" id="5lL-EM-YtG"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="Title" id="wD6-bB-AMx">
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="y5X-gN-xT9">
-                            <connections>
-                                <action selector="addMenu" destination="OR0-HU-7wq" id="uSF-He-BYJ"/>
-                            </connections>
-                        </barButtonItem>
-                    </navigationItem>
-                    <connections>
-                        <outlet property="menuTextField" destination="u3N-hd-Q1K" id="K0d-AD-drG"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="65J-IP-ovP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1724" y="842"/>
-        </scene>
-        <!--Menu List View Controller-->
-        <scene sceneID="5f3-K4-AA3">
-            <objects>
-                <viewController id="mKK-b1-Gvm" customClass="MenuListViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="G71-Im-g2L">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXs-8C-xJG">
-                                <rect key="frame" x="104" y="730" width="167" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="ホームへ"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BfP-uj-IWF">
+                                <rect key="frame" x="65" y="721" width="245" height="47"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="35"/>
+                                <state key="normal" title="この画像に決定">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="toTop" destination="mKK-b1-Gvm" eventType="touchUpInside" id="Kac-CH-7ql"/>
+                                    <action selector="decideButton:" destination="1b7-Ne-Xcu" eventType="touchUpInside" id="7Jp-YH-AJ9"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="Oxx-sT-W6G"/>
+                        <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="6aa-c4-HkI" firstAttribute="trailing" secondItem="BfP-uj-IWF" secondAttribute="trailing" constant="65" id="0wo-K3-VGR"/>
+                            <constraint firstItem="l1J-MY-Gt5" firstAttribute="top" secondItem="6aa-c4-HkI" secondAttribute="top" constant="18" id="3j4-O8-ye3"/>
+                            <constraint firstItem="Te9-Um-zXy" firstAttribute="top" secondItem="6aa-c4-HkI" secondAttribute="top" constant="10" id="BUo-o3-CRI"/>
+                            <constraint firstItem="cJd-vZ-ehi" firstAttribute="centerX" secondItem="Ns5-4j-hWK" secondAttribute="centerX" id="BaT-vu-UiA"/>
+                            <constraint firstItem="l1J-MY-Gt5" firstAttribute="leading" secondItem="6aa-c4-HkI" secondAttribute="leading" constant="30" id="F0f-Cf-CCm"/>
+                            <constraint firstItem="cJd-vZ-ehi" firstAttribute="leading" secondItem="6aa-c4-HkI" secondAttribute="leading" constant="18.329999999999998" id="Frl-5H-xO4"/>
+                            <constraint firstItem="BfP-uj-IWF" firstAttribute="top" secondItem="unJ-fS-YF5" secondAttribute="bottom" constant="60" id="G9A-Yn-IxS"/>
+                            <constraint firstItem="Te9-Um-zXy" firstAttribute="centerX" secondItem="Ns5-4j-hWK" secondAttribute="centerX" id="J4R-d9-h9Q"/>
+                            <constraint firstItem="6aa-c4-HkI" firstAttribute="bottom" secondItem="BfP-uj-IWF" secondAttribute="bottom" constant="10" id="KJy-kb-rzp"/>
+                            <constraint firstItem="unJ-fS-YF5" firstAttribute="top" secondItem="cJd-vZ-ehi" secondAttribute="bottom" constant="20" id="P4j-AY-YOp"/>
+                            <constraint firstItem="the-H9-40a" firstAttribute="top" secondItem="cJd-vZ-ehi" secondAttribute="bottom" constant="20" id="Rfb-My-fnE"/>
+                            <constraint firstItem="cJd-vZ-ehi" firstAttribute="top" secondItem="l1J-MY-Gt5" secondAttribute="bottom" constant="15" id="Uc9-Tk-h49"/>
+                            <constraint firstItem="6aa-c4-HkI" firstAttribute="trailing" secondItem="cJd-vZ-ehi" secondAttribute="trailing" constant="18.329999999999998" id="cZr-0i-6cT"/>
+                            <constraint firstItem="BfP-uj-IWF" firstAttribute="top" secondItem="the-H9-40a" secondAttribute="bottom" constant="60" id="kys-xc-2hW"/>
+                            <constraint firstItem="6aa-c4-HkI" firstAttribute="trailing" secondItem="the-H9-40a" secondAttribute="trailing" constant="45" id="nHH-qF-Tb3"/>
+                            <constraint firstItem="BfP-uj-IWF" firstAttribute="leading" secondItem="6aa-c4-HkI" secondAttribute="leading" constant="65" id="obR-55-kDh"/>
+                            <constraint firstItem="unJ-fS-YF5" firstAttribute="leading" secondItem="6aa-c4-HkI" secondAttribute="leading" constant="45" id="pnZ-8S-gMt"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6aa-c4-HkI"/>
                     </view>
+                    <connections>
+                        <outlet property="imageView" destination="cJd-vZ-ehi" id="y0y-zH-XMq"/>
+                        <outlet property="label" destination="Te9-Um-zXy" id="NNh-cM-1fy"/>
+                        <segue destination="9iW-be-NVr" kind="presentation" identifier="menu2" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="QKb-6Q-l6L"/>
+                        <segue destination="TEj-Wl-H9N" kind="presentation" identifier="menu3" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="9Ly-MX-tCc"/>
+                        <segue destination="tMf-50-8Iz" kind="presentation" identifier="menu1" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="yYo-U1-d90"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lil-0C-4uJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q87-VU-mNO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="841.74107142857144"/>
+            <point key="canvasLocation" x="1043.4782608695652" y="114.50892857142857"/>
         </scene>
         <!--Preview View Controller-->
         <scene sceneID="YZA-gE-85M">
             <objects>
-                <viewController id="tMf-50-8Iz" customClass="PreviewViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="menu1" modalTransitionStyle="crossDissolve" id="tMf-50-8Iz" customClass="PreviewViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="NA9-3d-SCP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxa-ch-RYn">
-                                <rect key="frame" x="33" y="722" width="148" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="保存する"/>
-                                <connections>
-                                    <action selector="onTappedPrintButton" destination="tMf-50-8Iz" eventType="touchUpInside" id="ioZ-Fs-gA5"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Menu作成" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFY-xw-ZXa">
-                                <rect key="frame" x="116" y="31" width="135" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFY-xw-ZXa">
+                                <rect key="frame" x="92.666666666666671" y="50" width="189.66666666666663" height="28"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
+                                <color key="textColor" red="0.066666666666666666" green="0.066666666666666666" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auk-Yu-G42">
-                                <rect key="frame" x="208" y="744" width="167" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="ホームへ"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auk-Yu-G42">
+                                <rect key="frame" x="237" y="740" width="98" height="42"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
+                                <state key="normal" title="ホームへ">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="toTop" destination="tMf-50-8Iz" eventType="touchUpInside" id="hjL-y7-yHu"/>
+                                    <action selector="toTop:" destination="tMf-50-8Iz" eventType="touchUpInside" id="pYl-Cj-00V"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menu_design" translatesAutoresizingMaskIntoConstraints="NO" id="jd8-ux-JqO">
-                                <rect key="frame" x="16" y="79" width="343" height="432"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxa-ch-RYn">
+                                <rect key="frame" x="40" y="740" width="109" height="42"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
+                                <state key="normal" title="保存する">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getScreenShot" destination="tMf-50-8Iz" eventType="touchUpInside" id="Gzd-ae-vkc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu1" translatesAutoresizingMaskIntoConstraints="NO" id="jd8-ux-JqO">
+                                <rect key="frame" x="42.666666666666657" y="100" width="290" height="412"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="jd8-ux-JqO" secondAttribute="height" multiplier="145:206" id="32W-u6-ubT"/>
+                                </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luS-hY-h03" userLabel="Label6">
-                                <rect key="frame" x="59" y="454" width="265" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJV-tf-VW0" userLabel="Label5">
-                                <rect key="frame" x="44" y="400" width="287" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfY-mG-sgO" userLabel="Label4">
-                                <rect key="frame" x="55" y="349" width="265" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCa-vg-d9H" userLabel="Label3">
-                                <rect key="frame" x="58" y="305" width="251" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzS-bn-ok4" userLabel="Label2">
-                                <rect key="frame" x="63" y="254" width="241" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aY-Ib-gM4">
-                                <rect key="frame" x="72" y="216" width="230" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duz-rB-YRn">
-                                <rect key="frame" x="33" y="535" width="148" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="料理１を編集"/>
-                                <connections>
-                                    <action selector="enterTapped1:" destination="tMf-50-8Iz" eventType="touchUpInside" id="NES-EM-ajh"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLU-mX-8Qv">
-                                <rect key="frame" x="191" y="536" width="148" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="料理2を編集"/>
-                                <connections>
-                                    <action selector="enterTapped2:" destination="tMf-50-8Iz" eventType="touchUpInside" id="9td-qt-1HD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rA0-iY-D36">
-                                <rect key="frame" x="33" y="606" width="148" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="料理3を編集"/>
-                                <connections>
-                                    <action selector="enterTapped3:" destination="tMf-50-8Iz" eventType="touchUpInside" id="i7b-jm-BSz"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQ6-VK-2dC">
-                                <rect key="frame" x="187" y="605" width="148" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="料理4を編集"/>
-                                <connections>
-                                    <action selector="enterTapped4:" destination="tMf-50-8Iz" eventType="touchUpInside" id="vyI-gy-JOj"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9V-Gq-FmN">
-                                <rect key="frame" x="44" y="684" width="148" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="料理5を編集"/>
-                                <connections>
-                                    <action selector="enterTapped5:" destination="tMf-50-8Iz" eventType="touchUpInside" id="HW2-tj-6aO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwU-SE-ExZ">
-                                <rect key="frame" x="191" y="683" width="148" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="料理6を編集"/>
-                                <connections>
-                                    <action selector="enterTapped6:" destination="tMf-50-8Iz" eventType="touchUpInside" id="XzC-FN-PlM"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="2Nl-nz-Jmt">
+                                <rect key="frame" x="65" y="238" width="245" height="242"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1aY-Ib-gM4">
+                                        <rect key="frame" x="0.0" y="0.0" width="245" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kzS-bn-ok4" userLabel="Label2">
+                                        <rect key="frame" x="0.0" y="18" width="245" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCa-vg-d9H" userLabel="Label3">
+                                        <rect key="frame" x="0.0" y="36" width="245" height="2"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yfY-mG-sgO" userLabel="Label4">
+                                        <rect key="frame" x="0.0" y="56" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NJV-tf-VW0" userLabel="Label5">
+                                        <rect key="frame" x="0.0" y="124" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="luS-hY-h03" userLabel="Label6">
+                                        <rect key="frame" x="0.0" y="192" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Br5-Vj-3TS">
+                                <rect key="frame" x="75" y="554" width="105" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Duz-rB-YRn">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理１を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped1:" destination="tMf-50-8Iz" eventType="touchUpInside" id="ZgE-bY-2tE"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rA0-iY-D36">
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理3を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped3:" destination="tMf-50-8Iz" eventType="touchUpInside" id="i7b-jm-BSz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9V-Gq-FmN">
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理5を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped5:" destination="tMf-50-8Iz" eventType="touchUpInside" id="HW2-tj-6aO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="UFS-4p-N0e">
+                                <rect key="frame" x="194.66666666666666" y="554" width="105.99999999999997" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLU-mX-8Qv">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理2を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped2:" destination="tMf-50-8Iz" eventType="touchUpInside" id="9td-qt-1HD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PQ6-VK-2dC">
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理4を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped4:" destination="tMf-50-8Iz" eventType="touchUpInside" id="vyI-gy-JOj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwU-SE-ExZ">
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理6を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped6:" destination="tMf-50-8Iz" eventType="touchUpInside" id="XzC-FN-PlM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" red="1" green="0.93333333333333335" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="auk-Yu-G42" firstAttribute="top" secondItem="UFS-4p-N0e" secondAttribute="bottom" constant="20" id="1gG-3q-CsK"/>
+                            <constraint firstAttribute="bottom" secondItem="jd8-ux-JqO" secondAttribute="bottom" constant="300" id="2KX-Bn-HnQ"/>
+                            <constraint firstItem="dxa-ch-RYn" firstAttribute="top" secondItem="Br5-Vj-3TS" secondAttribute="bottom" constant="20" id="2TF-ZA-XUj"/>
+                            <constraint firstItem="WFY-xw-ZXa" firstAttribute="centerX" secondItem="NA9-3d-SCP" secondAttribute="centerX" id="4wI-V1-kK2"/>
+                            <constraint firstItem="2Nl-nz-Jmt" firstAttribute="top" secondItem="WFY-xw-ZXa" secondAttribute="bottom" constant="160" id="Amc-mB-sa5"/>
+                            <constraint firstAttribute="trailing" secondItem="auk-Yu-G42" secondAttribute="trailing" constant="40" id="Ans-Hh-ue2"/>
+                            <constraint firstItem="auk-Yu-G42" firstAttribute="top" secondItem="2Nl-nz-Jmt" secondAttribute="bottom" constant="260" id="CLj-Mx-j2r"/>
+                            <constraint firstAttribute="bottom" secondItem="auk-Yu-G42" secondAttribute="bottom" constant="30" id="H29-gP-4uS"/>
+                            <constraint firstItem="Br5-Vj-3TS" firstAttribute="centerX" secondItem="NA9-3d-SCP" secondAttribute="centerX" constant="-60" id="Jcf-V8-0Gp"/>
+                            <constraint firstItem="2Nl-nz-Jmt" firstAttribute="leading" secondItem="BnM-U9-SbX" secondAttribute="leading" constant="65" id="Pgy-4Y-egC"/>
+                            <constraint firstItem="jd8-ux-JqO" firstAttribute="top" secondItem="NA9-3d-SCP" secondAttribute="top" constant="100" id="SHw-5a-EyA"/>
+                            <constraint firstItem="UFS-4p-N0e" firstAttribute="centerX" secondItem="NA9-3d-SCP" secondAttribute="centerX" constant="60" id="X1Z-dr-nHJ"/>
+                            <constraint firstItem="2Nl-nz-Jmt" firstAttribute="centerX" secondItem="NA9-3d-SCP" secondAttribute="centerX" id="bIh-aE-RtL"/>
+                            <constraint firstItem="dxa-ch-RYn" firstAttribute="leading" secondItem="BnM-U9-SbX" secondAttribute="leading" constant="40" id="bXO-5N-p74"/>
+                            <constraint firstItem="jd8-ux-JqO" firstAttribute="centerX" secondItem="NA9-3d-SCP" secondAttribute="centerX" id="cM9-Mc-tPw"/>
+                            <constraint firstItem="BnM-U9-SbX" firstAttribute="trailing" secondItem="2Nl-nz-Jmt" secondAttribute="trailing" constant="65" id="csM-Zg-xNZ"/>
+                            <constraint firstAttribute="bottom" secondItem="dxa-ch-RYn" secondAttribute="bottom" constant="30" id="mkB-Bc-cyT"/>
+                            <constraint firstItem="WFY-xw-ZXa" firstAttribute="top" secondItem="NA9-3d-SCP" secondAttribute="top" constant="50" id="xm9-bL-IAh"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="BnM-U9-SbX"/>
                     </view>
                     <navigationItem key="navigationItem" id="3j3-1I-xS8"/>
@@ -262,15 +504,476 @@
                         <outlet property="label5" destination="NJV-tf-VW0" id="InJ-Wd-ezC"/>
                         <outlet property="label6" destination="luS-hY-h03" id="XRk-ZN-jBl"/>
                         <outlet property="menuImageView" destination="jd8-ux-JqO" id="vcX-KX-jzm"/>
+                        <outlet property="stackview" destination="2Nl-nz-Jmt" id="lP3-Bs-3x0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6v4-Pr-Coh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1949.5999999999999" y="114.53201970443351"/>
+            <point key="canvasLocation" x="2192.8000000000002" y="-559.35960591133005"/>
+        </scene>
+        <!--Preview2 View Controller-->
+        <scene sceneID="73A-6R-uQc">
+            <objects>
+                <viewController storyboardIdentifier="menu2" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="9iW-be-NVr" customClass="Preview2ViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="m9r-HA-MXZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="872-sv-o7J">
+                                <rect key="frame" x="92.666666666666671" y="50" width="189.66666666666663" height="28"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
+                                <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXv-yj-eeB">
+                                <rect key="frame" x="237" y="740" width="98" height="42"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
+                                <state key="normal" title="ホームへ">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="toTop:" destination="9iW-be-NVr" eventType="touchUpInside" id="rmf-OL-5k6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ah5-8Y-HAl">
+                                <rect key="frame" x="40" y="740" width="109" height="42"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
+                                <state key="normal" title="保存する">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getScreenShot" destination="9iW-be-NVr" eventType="touchUpInside" id="AMB-lS-dwN"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu2" translatesAutoresizingMaskIntoConstraints="NO" id="wG1-q8-dp9">
+                                <rect key="frame" x="52.666666666666657" y="100" width="269.66666666666674" height="412"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wG1-q8-dp9" secondAttribute="height" multiplier="70:107" id="MGq-Ak-UbR"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="lah-4k-a6c">
+                                <rect key="frame" x="65" y="238" width="245" height="242"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="obc-te-3bq">
+                                        <rect key="frame" x="0.0" y="0.0" width="245" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbG-kB-Dj9" userLabel="Label2">
+                                        <rect key="frame" x="0.0" y="17" width="245" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KIA-Ws-s8S" userLabel="Label3">
+                                        <rect key="frame" x="0.0" y="34" width="245" height="7"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbv-7S-xPZ" userLabel="Label4">
+                                        <rect key="frame" x="0.0" y="58" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J6T-Th-wHR" userLabel="Label5">
+                                        <rect key="frame" x="0.0" y="125" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wd9-6k-8vK" userLabel="Label6">
+                                        <rect key="frame" x="0.0" y="192" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="kdx-xn-rVb">
+                                <rect key="frame" x="75" y="554" width="105" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYB-6X-Sjt">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理１を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped1:" destination="9iW-be-NVr" eventType="touchUpInside" id="y33-PV-Rkc"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OWK-Z9-ys9">
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理3を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped3:" destination="9iW-be-NVr" eventType="touchUpInside" id="RKT-kE-2va"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uhu-9c-Q1f">
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理5を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped5:" destination="9iW-be-NVr" eventType="touchUpInside" id="MWP-aL-Xqd"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="z6X-K2-JaA">
+                                <rect key="frame" x="194.66666666666666" y="554" width="105.99999999999997" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lri-re-Lr6">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理2を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped2:" destination="9iW-be-NVr" eventType="touchUpInside" id="Vdq-f7-hKw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d4W-i9-OnT">
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理4を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped4:" destination="9iW-be-NVr" eventType="touchUpInside" id="MuR-v9-y28"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GP9-aA-Bta">
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理6を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped6:" destination="9iW-be-NVr" eventType="touchUpInside" id="6VK-HO-YcA"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="lah-4k-a6c" firstAttribute="top" secondItem="872-sv-o7J" secondAttribute="bottom" constant="160" id="68t-ZD-yKd"/>
+                            <constraint firstItem="872-sv-o7J" firstAttribute="centerX" secondItem="m9r-HA-MXZ" secondAttribute="centerX" id="9hr-pP-IRy"/>
+                            <constraint firstItem="wG1-q8-dp9" firstAttribute="centerX" secondItem="m9r-HA-MXZ" secondAttribute="centerX" id="BLo-lL-uQg"/>
+                            <constraint firstItem="wG1-q8-dp9" firstAttribute="top" secondItem="m9r-HA-MXZ" secondAttribute="top" constant="100" id="C3a-N2-wDR"/>
+                            <constraint firstItem="wG1-q8-dp9" firstAttribute="centerX" secondItem="m9r-HA-MXZ" secondAttribute="centerX" id="CFP-9f-fwu"/>
+                            <constraint firstItem="ah5-8Y-HAl" firstAttribute="top" secondItem="kdx-xn-rVb" secondAttribute="bottom" constant="20" id="F1a-1v-KMr"/>
+                            <constraint firstItem="kdx-xn-rVb" firstAttribute="centerX" secondItem="m9r-HA-MXZ" secondAttribute="centerX" constant="-60" id="LBQ-bw-En9"/>
+                            <constraint firstAttribute="bottom" secondItem="wG1-q8-dp9" secondAttribute="bottom" constant="300" id="MCV-bL-d20"/>
+                            <constraint firstItem="lah-4k-a6c" firstAttribute="centerX" secondItem="m9r-HA-MXZ" secondAttribute="centerX" id="XEY-12-Hav"/>
+                            <constraint firstAttribute="bottom" secondItem="ah5-8Y-HAl" secondAttribute="bottom" constant="30" id="YKN-Sl-u2k"/>
+                            <constraint firstItem="ah5-8Y-HAl" firstAttribute="leading" secondItem="wwa-CL-0z5" secondAttribute="leading" constant="40" id="Yxh-vJ-y0E"/>
+                            <constraint firstAttribute="trailing" secondItem="XXv-yj-eeB" secondAttribute="trailing" constant="40" id="eSK-Jq-ekT"/>
+                            <constraint firstItem="wwa-CL-0z5" firstAttribute="trailing" secondItem="lah-4k-a6c" secondAttribute="trailing" constant="65" id="j3f-R0-aVY"/>
+                            <constraint firstItem="lah-4k-a6c" firstAttribute="leading" secondItem="wwa-CL-0z5" secondAttribute="leading" constant="65" id="nus-Nu-mrP"/>
+                            <constraint firstAttribute="bottom" secondItem="XXv-yj-eeB" secondAttribute="bottom" constant="30" id="oYv-pZ-a38"/>
+                            <constraint firstItem="872-sv-o7J" firstAttribute="top" secondItem="m9r-HA-MXZ" secondAttribute="top" constant="50" id="v1c-id-G5B"/>
+                            <constraint firstItem="z6X-K2-JaA" firstAttribute="centerX" secondItem="m9r-HA-MXZ" secondAttribute="centerX" constant="60" id="w33-CL-Ydg"/>
+                            <constraint firstItem="XXv-yj-eeB" firstAttribute="top" secondItem="lah-4k-a6c" secondAttribute="bottom" constant="260" id="wNy-RA-oca"/>
+                            <constraint firstItem="XXv-yj-eeB" firstAttribute="top" secondItem="z6X-K2-JaA" secondAttribute="bottom" constant="20" id="yjv-Ul-clZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wwa-CL-0z5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4sg-ys-gfc"/>
+                    <connections>
+                        <outlet property="label1" destination="obc-te-3bq" id="DXX-gT-FT1"/>
+                        <outlet property="label2" destination="jbG-kB-Dj9" id="FTW-HK-oei"/>
+                        <outlet property="label3" destination="KIA-Ws-s8S" id="HpP-MV-vEe"/>
+                        <outlet property="label4" destination="nbv-7S-xPZ" id="yCb-gn-wN6"/>
+                        <outlet property="label5" destination="J6T-Th-wHR" id="jCY-B2-V4f"/>
+                        <outlet property="label6" destination="Wd9-6k-8vK" id="Ik2-sz-o57"/>
+                        <outlet property="menuImageView" destination="wG1-q8-dp9" id="vfb-QZ-yJh"/>
+                        <outlet property="stackview" destination="lah-4k-a6c" id="E9u-2e-JpP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K9T-Gc-KVn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="114.53201970443351"/>
+        </scene>
+        <!--Preview3 View Controller-->
+        <scene sceneID="1ns-f5-6Db">
+            <objects>
+                <viewController storyboardIdentifier="menu3" id="TEj-Wl-H9N" customClass="Preview3ViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q7f-Sx-Rgb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpA-2Z-7Jx">
+                                <rect key="frame" x="92.666666666666671" y="50" width="189.66666666666663" height="28"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
+                                <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRc-F5-CUj">
+                                <rect key="frame" x="234" y="739" width="101" height="43"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="31"/>
+                                <state key="normal" title="ホームへ">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="toTop:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="zGU-gg-fbA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y2H-wH-Wdx">
+                                <rect key="frame" x="40" y="739" width="112" height="43"/>
+                                <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="31"/>
+                                <state key="normal" title="保存する">
+                                    <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="getScreenShot" destination="TEj-Wl-H9N" eventType="touchUpInside" id="h9H-Lv-Xzj"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Kc8-DO-0u8">
+                                <rect key="frame" x="65" y="238" width="245" height="241"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcz-2f-Pub">
+                                        <rect key="frame" x="0.0" y="0.0" width="245" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xnc-kE-MgY" userLabel="Label2">
+                                        <rect key="frame" x="0.0" y="18" width="245" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zmx-cV-OoG" userLabel="Label3">
+                                        <rect key="frame" x="0.0" y="36" width="245" height="1"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QXX-8b-jR3" userLabel="Label4">
+                                        <rect key="frame" x="0.0" y="55" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5LQ-Zv-Y5n" userLabel="Label5">
+                                        <rect key="frame" x="0.0" y="123" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHL-m3-4sG" userLabel="Label6">
+                                        <rect key="frame" x="0.0" y="191" width="245" height="50"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="rpg-Nc-dMb">
+                                <rect key="frame" x="75" y="553" width="105" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHW-U2-P3h">
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理１を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped1:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="QZ5-P0-zHG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7nd-EU-0qf">
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理3を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped3:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="EPR-am-tlr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R6p-vS-jfx">
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理5を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped5:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="P2y-0O-hXk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="71p-LI-VMr">
+                                <rect key="frame" x="194.66666666666666" y="553" width="105.99999999999997" height="166"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hSt-eT-7s9">
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理2を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped2:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="kNL-k4-4Bp"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnK-oV-jBq">
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理4を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped4:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="Zgh-YP-GiQ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGm-cs-STA">
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
+                                        <state key="normal" title="料理6を編集">
+                                            <color key="titleColor" red="0.96130555870000001" green="0.78852624599999999" blue="0.62559441640000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="7"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="enterTapped6:" destination="TEj-Wl-H9N" eventType="touchUpInside" id="MY7-AL-2Ut"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menu3" translatesAutoresizingMaskIntoConstraints="NO" id="O9b-WR-6Dn">
+                                <rect key="frame" x="39" y="100" width="297" height="412"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="O9b-WR-6Dn" secondAttribute="height" multiplier="297:412" id="Dcf-eA-etf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="cRc-F5-CUj" firstAttribute="top" secondItem="71p-LI-VMr" secondAttribute="bottom" constant="20" id="DPi-Wx-KRI"/>
+                            <constraint firstItem="ah9-Gp-Eg0" firstAttribute="trailing" secondItem="Kc8-DO-0u8" secondAttribute="trailing" constant="65" id="DSN-qo-HKv"/>
+                            <constraint firstItem="Kc8-DO-0u8" firstAttribute="centerX" secondItem="q7f-Sx-Rgb" secondAttribute="centerX" id="EL5-kW-8h8"/>
+                            <constraint firstAttribute="bottom" secondItem="cRc-F5-CUj" secondAttribute="bottom" constant="30" id="FS6-Ml-WG4"/>
+                            <constraint firstItem="71p-LI-VMr" firstAttribute="centerX" secondItem="q7f-Sx-Rgb" secondAttribute="centerX" constant="60" id="G76-34-5z3"/>
+                            <constraint firstItem="Kc8-DO-0u8" firstAttribute="top" secondItem="bpA-2Z-7Jx" secondAttribute="bottom" constant="160" id="Jt0-S3-WQ6"/>
+                            <constraint firstAttribute="bottom" secondItem="y2H-wH-Wdx" secondAttribute="bottom" constant="30" id="K8i-VL-T15"/>
+                            <constraint firstAttribute="trailing" secondItem="cRc-F5-CUj" secondAttribute="trailing" constant="40" id="OIj-Fr-ybH"/>
+                            <constraint firstItem="rpg-Nc-dMb" firstAttribute="centerX" secondItem="q7f-Sx-Rgb" secondAttribute="centerX" constant="-60" id="P8c-0G-LNH"/>
+                            <constraint firstItem="bpA-2Z-7Jx" firstAttribute="top" secondItem="q7f-Sx-Rgb" secondAttribute="top" constant="50" id="SZ8-aK-7Bx"/>
+                            <constraint firstAttribute="bottom" secondItem="O9b-WR-6Dn" secondAttribute="bottom" constant="300" id="cvW-t8-8TQ"/>
+                            <constraint firstItem="y2H-wH-Wdx" firstAttribute="top" secondItem="rpg-Nc-dMb" secondAttribute="bottom" constant="20" id="mZI-e2-f9r"/>
+                            <constraint firstItem="bpA-2Z-7Jx" firstAttribute="centerX" secondItem="q7f-Sx-Rgb" secondAttribute="centerX" id="pCv-7b-5wP"/>
+                            <constraint firstItem="y2H-wH-Wdx" firstAttribute="leading" secondItem="ah9-Gp-Eg0" secondAttribute="leading" constant="40" id="rZz-Tt-fSV"/>
+                            <constraint firstItem="cRc-F5-CUj" firstAttribute="top" secondItem="Kc8-DO-0u8" secondAttribute="bottom" constant="260" id="uRI-IS-i46"/>
+                            <constraint firstItem="O9b-WR-6Dn" firstAttribute="top" secondItem="q7f-Sx-Rgb" secondAttribute="top" constant="100" id="uhi-Mu-TdU"/>
+                            <constraint firstItem="Kc8-DO-0u8" firstAttribute="leading" secondItem="ah9-Gp-Eg0" secondAttribute="leading" constant="65" id="xFu-vY-9nc"/>
+                            <constraint firstItem="O9b-WR-6Dn" firstAttribute="centerX" secondItem="q7f-Sx-Rgb" secondAttribute="centerX" id="yGj-UA-nUs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ah9-Gp-Eg0"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="hOH-3n-TlL"/>
+                    <connections>
+                        <outlet property="label1" destination="Mcz-2f-Pub" id="SFi-vR-I8o"/>
+                        <outlet property="label2" destination="Xnc-kE-MgY" id="sfT-wW-bM7"/>
+                        <outlet property="label3" destination="Zmx-cV-OoG" id="nxs-Oo-1te"/>
+                        <outlet property="label4" destination="QXX-8b-jR3" id="gDR-SQ-Dcv"/>
+                        <outlet property="label5" destination="5LQ-Zv-Y5n" id="DJw-qz-LCp"/>
+                        <outlet property="label6" destination="DHL-m3-4sG" id="euB-Qy-r5m"/>
+                        <outlet property="menuImageView" destination="O9b-WR-6Dn" id="Uw2-U3-4Z8"/>
+                        <outlet property="stackview" destination="Kc8-DO-0u8" id="gHa-0k-9Cy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pV1-jS-e5s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2192.8000000000002" y="852.70935960591135"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="1M5-d5-O8p"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="IMG_1593" width="750" height="1161"/>
-        <image name="menu_design" width="720" height="1019"/>
+        <image name="menu1" width="720" height="1019"/>
+        <image name="menu2" width="1107" height="1677"/>
+        <image name="menu3" width="1240" height="1753"/>
     </resources>
 </document>

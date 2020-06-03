@@ -1,23 +1,35 @@
 //
-//  StartUpViewController.swift
+//  AboutAppViewController.swift
 //  MenuMaker
 //
-//  Created by 藤田佳己 on 2020/05/17.
+//  Created by 藤田佳己 on 2020/05/30.
 //  Copyright © 2020 Fujita Fujimon. All rights reserved.
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
-class StartUpViewController: UIViewController {
-    
-    @IBOutlet var label: UILabel!
+
+class AboutAppViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+       
         // Do any additional setup after loading the view.
-        label.text = "Menu\nMaker"
+        
     }
+    
+    
+        
+    
+    //閉じる
+    @IBAction func toback(_ sender: UIButton) {
+
+               //この下の1行を追加
+               self.dismiss(animated: true, completion: nil)
+       }
     
 
     /*

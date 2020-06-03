@@ -7,8 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED64A2B72471686E0040B7A6 /* StartUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED64A2B62471686E0040B7A6 /* StartUpViewController.swift */; };
-		ED64A2BD2472D62A0040B7A6 /* AddMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED64A2BC2472D62A0040B7A6 /* AddMenuViewController.swift */; };
+		ED01FE4324764DB20089CB6D /* menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED01FE4224764DB20089CB6D /* menu.swift */; };
+		ED01FE45247657130089CB6D /* Preview2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED01FE44247657130089CB6D /* Preview2ViewController.swift */; };
+		ED01FE47247657340089CB6D /* Preview3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED01FE46247657340089CB6D /* Preview3ViewController.swift */; };
+		ED3E95152482477D00AA4121 /* AboutAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED3E95142482477D00AA4121 /* AboutAppViewController.swift */; };
+		ED4A2F5E24756095009B265B /* chooseMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A2F5D24756095009B265B /* chooseMenuViewController.swift */; };
+		ED5306F9247D292E00846D5F /* KTEGAKI.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED5306F7247D292E00846D5F /* KTEGAKI.ttf */; };
+		ED5306FA247D292E00846D5F /* readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = ED5306F8247D292E00846D5F /* readme.txt */; };
 		ED87A7EC2470112A00869C88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A7EB2470112A00869C88 /* AppDelegate.swift */; };
 		ED87A7EE2470112A00869C88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A7ED2470112A00869C88 /* SceneDelegate.swift */; };
 		ED87A7F02470112A00869C88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A7EF2470112A00869C88 /* ViewController.swift */; };
@@ -18,6 +23,8 @@
 		ED87A8032470112D00869C88 /* MenuMakerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A8022470112D00869C88 /* MenuMakerTests.swift */; };
 		ED87A80E2470112D00869C88 /* MenuMakerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A80D2470112D00869C88 /* MenuMakerUITests.swift */; };
 		ED87A8222470133E00869C88 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED87A8212470133E00869C88 /* PreviewViewController.swift */; };
+		EDFD83FD24877C23002AD414 /* アプリ説明動画.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = EDFD83FC24877C23002AD414 /* アプリ説明動画.mp4 */; };
+		EDFD83FF24877F85002AD414 /* TutorialVideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFD83FE24877F85002AD414 /* TutorialVideoPlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED64A2B62471686E0040B7A6 /* StartUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUpViewController.swift; sourceTree = "<group>"; };
-		ED64A2BC2472D62A0040B7A6 /* AddMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMenuViewController.swift; sourceTree = "<group>"; };
+		ED01FE4224764DB20089CB6D /* menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menu.swift; sourceTree = "<group>"; };
+		ED01FE44247657130089CB6D /* Preview2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview2ViewController.swift; sourceTree = "<group>"; };
+		ED01FE46247657340089CB6D /* Preview3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview3ViewController.swift; sourceTree = "<group>"; };
+		ED3E95142482477D00AA4121 /* AboutAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAppViewController.swift; sourceTree = "<group>"; };
+		ED4A2F5D24756095009B265B /* chooseMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chooseMenuViewController.swift; sourceTree = "<group>"; };
+		ED5306F7247D292E00846D5F /* KTEGAKI.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = KTEGAKI.ttf; sourceTree = "<group>"; };
+		ED5306F8247D292E00846D5F /* readme.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = readme.txt; sourceTree = "<group>"; };
 		ED87A7E82470112A00869C88 /* MenuMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED87A7EB2470112A00869C88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED87A7ED2470112A00869C88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +67,8 @@
 		ED87A80D2470112D00869C88 /* MenuMakerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMakerUITests.swift; sourceTree = "<group>"; };
 		ED87A80F2470112D00869C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED87A8212470133E00869C88 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		EDFD83FC24877C23002AD414 /* アプリ説明動画.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "アプリ説明動画.mp4"; sourceTree = SOURCE_ROOT; };
+		EDFD83FE24877F85002AD414 /* TutorialVideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialVideoPlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED5306F6247D292E00846D5F /* KTEGAKI120 */ = {
+			isa = PBXGroup;
+			children = (
+				ED5306F7247D292E00846D5F /* KTEGAKI.ttf */,
+				ED5306F8247D292E00846D5F /* readme.txt */,
+			);
+			path = KTEGAKI120;
+			sourceTree = SOURCE_ROOT;
+		};
 		ED87A7DF2470112A00869C88 = {
 			isa = PBXGroup;
 			children = (
@@ -105,15 +128,21 @@
 		ED87A7EA2470112A00869C88 /* MenuMaker */ = {
 			isa = PBXGroup;
 			children = (
+				EDFD83FC24877C23002AD414 /* アプリ説明動画.mp4 */,
 				ED87A7EB2470112A00869C88 /* AppDelegate.swift */,
 				ED87A7ED2470112A00869C88 /* SceneDelegate.swift */,
-				ED64A2B62471686E0040B7A6 /* StartUpViewController.swift */,
+				ED01FE4224764DB20089CB6D /* menu.swift */,
 				ED87A7EF2470112A00869C88 /* ViewController.swift */,
-				ED64A2BC2472D62A0040B7A6 /* AddMenuViewController.swift */,
+				EDFD83FE24877F85002AD414 /* TutorialVideoPlayerViewController.swift */,
+				ED4A2F5D24756095009B265B /* chooseMenuViewController.swift */,
 				ED87A8212470133E00869C88 /* PreviewViewController.swift */,
+				ED01FE44247657130089CB6D /* Preview2ViewController.swift */,
+				ED01FE46247657340089CB6D /* Preview3ViewController.swift */,
 				ED87A7F12470112A00869C88 /* Main.storyboard */,
 				ED87A7F42470112D00869C88 /* Assets.xcassets */,
 				ED87A7F62470112D00869C88 /* LaunchScreen.storyboard */,
+				ED3E95142482477D00AA4121 /* AboutAppViewController.swift */,
+				ED5306F6247D292E00846D5F /* KTEGAKI120 */,
 				ED87A7F92470112D00869C88 /* Info.plist */,
 			);
 			path = MenuMaker;
@@ -241,9 +270,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5306FA247D292E00846D5F /* readme.txt in Resources */,
 				ED87A7F82470112D00869C88 /* LaunchScreen.storyboard in Resources */,
+				EDFD83FD24877C23002AD414 /* アプリ説明動画.mp4 in Resources */,
 				ED87A7F52470112D00869C88 /* Assets.xcassets in Resources */,
 				ED87A7F32470112A00869C88 /* Main.storyboard in Resources */,
+				ED5306F9247D292E00846D5F /* KTEGAKI.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,10 +302,14 @@
 			files = (
 				ED87A7F02470112A00869C88 /* ViewController.swift in Sources */,
 				ED87A7EC2470112A00869C88 /* AppDelegate.swift in Sources */,
-				ED64A2BD2472D62A0040B7A6 /* AddMenuViewController.swift in Sources */,
+				ED01FE45247657130089CB6D /* Preview2ViewController.swift in Sources */,
 				ED87A8222470133E00869C88 /* PreviewViewController.swift in Sources */,
-				ED64A2B72471686E0040B7A6 /* StartUpViewController.swift in Sources */,
 				ED87A7EE2470112A00869C88 /* SceneDelegate.swift in Sources */,
+				ED01FE4324764DB20089CB6D /* menu.swift in Sources */,
+				ED01FE47247657340089CB6D /* Preview3ViewController.swift in Sources */,
+				ED3E95152482477D00AA4121 /* AboutAppViewController.swift in Sources */,
+				ED4A2F5E24756095009B265B /* chooseMenuViewController.swift in Sources */,
+				EDFD83FF24877F85002AD414 /* TutorialVideoPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,7 +414,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -432,7 +468,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -446,15 +482,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L23RK29SC3;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = MenuMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Yoshiki-Fujita.MenuMaker";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.MenuMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L12YoshikiFujita-Distribution";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,15 +504,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = L23RK29SC3;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0.0;
+				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = MenuMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Yoshiki-Fujita.MenuMaker";
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.MenuMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "L12YoshikiFujita-Distribution";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -9,13 +9,23 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+   class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //アプリ起動時の画面表示時間
         sleep(UInt32(1.5))
+        
+        //初回起動時に表示する
+       let ud = UserDefaults.standard
+        let firstLunchKey = "firstLunch"
+        let firstLunch = [firstLunchKey: true]
+        ud.register(defaults: firstLunch)
+
+        
         return true
     }
 
