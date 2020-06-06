@@ -20,8 +20,6 @@ class PreviewViewController: UIViewController {
     
     @IBOutlet var stackview: UIStackView!
     
-    //imageの定義
-    let image = UIImage(named:"menu1")!
     
 
     override func viewDidLoad() {

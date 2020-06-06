@@ -25,6 +25,14 @@ class chooseMenuViewController: UIViewController {
              menuArray.append(menu(imageName: "menu1"))
              menuArray.append(menu(imageName: "menu2"))
              menuArray.append(menu(imageName: "menu3"))
+             menuArray.append(menu(imageName: "menu4"))
+             menuArray.append(menu(imageName: "menu5"))
+             menuArray.append(menu(imageName: "menu6"))
+             menuArray.append(menu(imageName: "menu7"))
+             menuArray.append(menu(imageName: "menu8"))
+             menuArray.append(menu(imageName: "menu9"))
+             menuArray.append(menu(imageName: "menu10"))
+        
             
             setUI()
     }
@@ -39,6 +47,7 @@ class chooseMenuViewController: UIViewController {
             imageView.image = menuArray[index].getImage()
     }
     
+    
     //決定ボタン
     @IBAction func decideButton(_ sender: Any) {
         if index == 0 {
@@ -47,16 +56,32 @@ class chooseMenuViewController: UIViewController {
             self.performSegue(withIdentifier: "menu2", sender: nil)
         } else if index == 2 {
             self.performSegue(withIdentifier: "menu3", sender: nil)
+        } else if index == 3 {
+            self.performSegue(withIdentifier: "menu4", sender: nil)
+        } else if index == 4 {
+            self.performSegue(withIdentifier: "menu5", sender: nil)
+        } else if index == 5 {
+            self.performSegue(withIdentifier: "menu6", sender: nil)
+        } else if index == 6 {
+            self.performSegue(withIdentifier: "menu7", sender: nil)
+        } else if index == 7 {
+            self.performSegue(withIdentifier: "menu8", sender: nil)
+        } else if index == 8 {
+            self.performSegue(withIdentifier: "menu9", sender: nil)
+        } else if index == 9 {
+            self.performSegue(withIdentifier: "menu10", sender: nil)
         }
     }
+
+    
     
           
     //前の画像へ
     @IBAction func mae() {
-        if(index <= 2 && index > 0){
+        if(index <= 9 && index > 0){
                 index = index - 1
         } else {
-                index = 2
+                index = 9
         }
         
         if index == 0 {
@@ -64,15 +89,30 @@ class chooseMenuViewController: UIViewController {
         } else if index == 1 {
             label.text = "menu2"
         } else if index == 2 {
-        label.text = "menu3"
+            label.text = "menu3"
+        }else if index == 3 {
+            label.text = "menu4"
+        }else if index == 4 {
+            label.text = "menu5"
+        }else if index == 5 {
+            label.text = "menu6"
+        }else if index == 6 {
+            label.text = "menu7"
+        }else if index == 7 {
+            label.text = "menu8"
+        }else if index == 8 {
+            label.text = "menu9"
+        }else if index == 9 {
+            label.text = "menu10"
         }
+
         
             setUI()
     }
         
     //次の画像へ
     @IBAction func tugi() {
-        if index < 2{
+        if index < 9 {
             index = index + 1
         } else {
             index = 0
@@ -83,8 +123,23 @@ class chooseMenuViewController: UIViewController {
         } else if index == 1 {
             label.text = "menu2"
         } else if index == 2 {
-        label.text = "menu3"
+            label.text = "menu3"
+        }else if index == 3 {
+            label.text = "menu4"
+        }else if index == 4 {
+            label.text = "menu5"
+        }else if index == 5 {
+            label.text = "menu6"
+        }else if index == 6 {
+            label.text = "menu7"
+        }else if index == 7 {
+            label.text = "menu8"
+        }else if index == 8 {
+            label.text = "menu9"
+        }else if index == 9 {
+            label.text = "menu10"
         }
+        
         
             setUI()
     }
