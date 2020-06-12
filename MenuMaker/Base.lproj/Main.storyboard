@@ -55,7 +55,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="huJ-ra-scT">
-                                <rect key="frame" x="15" y="590.33333333333337" width="60" height="35"/>
+                                <rect key="frame" x="15" y="578.33333333333337" width="60" height="35"/>
                                 <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="35" id="uE2-vt-YFJ"/>
@@ -94,7 +94,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vV7-9z-1bt" secondAttribute="trailing" constant="45" id="FF2-kh-oO8"/>
                             <constraint firstItem="vV7-9z-1bt" firstAttribute="top" secondItem="74f-35-zHB" secondAttribute="bottom" id="IKd-jf-Wcz"/>
                             <constraint firstItem="EEs-Mb-owa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Ifz-bR-lN9"/>
-                            <constraint firstItem="huJ-ra-scT" firstAttribute="top" secondItem="EEs-Mb-owa" secondAttribute="bottom" constant="22" id="JsP-6M-jAH"/>
+                            <constraint firstItem="huJ-ra-scT" firstAttribute="top" secondItem="EEs-Mb-owa" secondAttribute="bottom" constant="10" id="JsP-6M-jAH"/>
                             <constraint firstItem="7kK-C9-mEN" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="NVu-1C-Hnr"/>
                             <constraint firstItem="tcc-UD-iFu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="V1X-47-HxC"/>
                             <constraint firstItem="tcc-UD-iFu" firstAttribute="height" secondItem="7kK-C9-mEN" secondAttribute="height" multiplier="0.07" id="Zux-nq-reI"/>
@@ -346,7 +346,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snr-fa-4RK">
-                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
+                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -362,40 +362,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="b4K-AJ-7d0" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="99" y="215" width="177" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nul-zb-YQ8">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xqc-3Z-Swh" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="177" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KVY-7n-QYr" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="177" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wa8-B9-k6p" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="177" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HZY-lk-mTV" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="177" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0h-3e-44w" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="177" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -403,10 +403,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="AyX-sc-W94" userLabel="左Stack View">
-                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
+                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zN-iz-FjW">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -422,7 +422,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqh-sg-WcE">
-                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -438,7 +438,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRN-he-8Cd">
-                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -456,10 +456,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="wJV-q5-lhH" userLabel="右Stack View">
-                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
+                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxL-bD-4Fg">
-                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -475,7 +475,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jz-Bv-QyC">
-                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -491,7 +491,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wu-a7-FLu">
-                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -509,7 +509,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aai-CB-9rB">
-                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -519,7 +519,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQD-CZ-d6n">
-                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
+                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -573,6 +573,7 @@
                             <constraint firstItem="XpI-IB-qX6" firstAttribute="bottom" secondItem="a9W-64-SfR" secondAttribute="bottom" constant="3" id="mPf-gX-dds"/>
                             <constraint firstItem="BHp-rh-S3l" firstAttribute="top" secondItem="XBO-Bu-QQm" secondAttribute="top" id="p3m-IF-MTy"/>
                             <constraint firstItem="AyX-sc-W94" firstAttribute="centerX" secondItem="XBO-Bu-QQm" secondAttribute="centerX" constant="-60" id="pOP-pa-adb"/>
+                            <constraint firstItem="b4K-AJ-7d0" firstAttribute="width" secondItem="WIv-XK-mwG" secondAttribute="width" multiplier="0.65" id="qyY-vq-EZr"/>
                             <constraint firstItem="bk8-uW-e9e" firstAttribute="height" secondItem="IEO-1B-mrt" secondAttribute="height" multiplier="0.05" id="r8c-sn-OlO"/>
                             <constraint firstItem="bk8-uW-e9e" firstAttribute="top" secondItem="mQD-CZ-d6n" secondAttribute="bottom" id="rcn-Mf-6TK"/>
                             <constraint firstItem="BHp-rh-S3l" firstAttribute="height" secondItem="IEO-1B-mrt" secondAttribute="height" multiplier="0.05" id="u5g-xf-gOA"/>
@@ -633,7 +634,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hm-LN-E2X">
-                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
+                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -649,40 +650,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="wwv-hZ-MfN" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="112.66666666666667" y="215" width="149.66666666666663" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igt-28-QE8">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="149.66666666666666" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9if-Kc-Hio" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="149.66666666666666" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uP8-8V-VaW" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="149.66666666666666" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iy3-6j-gYy" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="149.66666666666666" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ctr-cN-h0I" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="149.66666666666666" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nz2-RN-Gqw" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="149.66666666666666" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -690,10 +691,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="h9s-1S-3dw" userLabel="左Stack View">
-                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
+                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDL-Z2-bZW">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -709,7 +710,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqD-Mq-5R8">
-                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -725,7 +726,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyP-YE-GxA">
-                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -743,10 +744,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="0Ex-7M-ALU" userLabel="右Stack View">
-                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
+                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUU-bd-lRu">
-                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -762,7 +763,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIj-9F-R5x">
-                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -778,7 +779,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-lY-tL2">
-                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -796,7 +797,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xa4-8H-ijj">
-                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -806,7 +807,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efm-37-4xH">
-                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
+                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -835,6 +836,7 @@
                             <constraint firstItem="H8h-vl-nyy" firstAttribute="top" secondItem="Xa4-8H-ijj" secondAttribute="bottom" id="FWf-Hb-KcY"/>
                             <constraint firstItem="iQt-EB-Jhb" firstAttribute="leading" secondItem="LiT-NB-w0u" secondAttribute="leading" id="Fp4-hx-Au4"/>
                             <constraint firstItem="MYW-Ll-UId" firstAttribute="leading" secondItem="Sbe-oz-bhg" secondAttribute="trailing" id="I3e-Bk-jhc"/>
+                            <constraint firstItem="wwv-hZ-MfN" firstAttribute="width" secondItem="hBD-cA-Efd" secondAttribute="width" multiplier="0.55" id="IBR-VA-EPq"/>
                             <constraint firstItem="0Ex-7M-ALU" firstAttribute="centerX" secondItem="LiT-NB-w0u" secondAttribute="centerX" constant="60" id="K3b-uk-Vnl"/>
                             <constraint firstItem="W7L-3n-DY8" firstAttribute="height" secondItem="hBD-cA-Efd" secondAttribute="height" multiplier="0.1" id="Ljo-mt-ewm"/>
                             <constraint firstItem="6IA-vC-JfW" firstAttribute="height" secondItem="Sbe-oz-bhg" secondAttribute="height" multiplier="0.05" id="MOy-Ql-F6z"/>
@@ -920,7 +922,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umK-y4-5Bv">
-                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
+                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -936,40 +938,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="rKS-KD-RII" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="99" y="215" width="177" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mjv-SO-NU6">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="177" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0VJ-AK-3Je" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="177" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lxa-fm-wQK" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="177" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3u-C2-vOk" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="177" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6dG-Lx-PkV" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="177" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0x-1d-tGc" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="177" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -977,10 +979,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="JKD-Me-As4" userLabel="左Stack View">
-                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
+                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDC-08-3ML">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -996,7 +998,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4I-QE-Lkn">
-                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -1012,7 +1014,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUR-Wq-LMS">
-                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -1030,10 +1032,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="pTL-z0-5Hf" userLabel="右Stack View">
-                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
+                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-lA-Lde">
-                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -1049,7 +1051,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWu-tk-62N">
-                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -1065,7 +1067,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNf-ey-hG2">
-                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -1083,7 +1085,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVn-CW-qwU">
-                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1093,7 +1095,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTr-rV-iLC">
-                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
+                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1145,6 +1147,7 @@
                             <constraint firstItem="zbJ-cJ-xrh" firstAttribute="top" secondItem="umK-y4-5Bv" secondAttribute="bottom" id="hp9-bO-j1b"/>
                             <constraint firstItem="s6g-eE-PaP" firstAttribute="bottom" secondItem="08F-Ic-udo" secondAttribute="bottom" constant="3" id="k1n-59-PfR"/>
                             <constraint firstItem="zbJ-cJ-xrh" firstAttribute="leading" secondItem="Sva-f6-vdE" secondAttribute="trailing" id="o08-aI-Puh"/>
+                            <constraint firstItem="rKS-KD-RII" firstAttribute="width" secondItem="FLf-vR-Ch8" secondAttribute="width" multiplier="0.65" id="oRy-5b-tqt"/>
                             <constraint firstItem="08F-Ic-udo" firstAttribute="top" secondItem="rKS-KD-RII" secondAttribute="bottom" id="oW8-qg-uI5"/>
                             <constraint firstItem="FLf-vR-Ch8" firstAttribute="centerX" secondItem="Vee-Od-dxu" secondAttribute="centerX" id="oWH-tG-tQY"/>
                             <constraint firstItem="s6g-eE-PaP" firstAttribute="top" secondItem="Vee-Od-dxu" secondAttribute="top" id="pCU-30-lpL"/>
@@ -1223,40 +1226,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="wDJ-UW-DIM" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="92.333333333333329" y="215" width="190.33333333333337" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jbo-Dd-6MG">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xaq-aT-WkL" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zol-ap-r7a" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vr-el-GkL" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="190.33333333333334" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgz-Gd-Mc1" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="190.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxP-B0-SfH" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="190.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1435,6 +1438,7 @@
                             <constraint firstItem="kMu-Oy-HLH" firstAttribute="bottom" secondItem="Jgw-BF-C69" secondAttribute="bottom" constant="3" id="l0F-Xd-Geg"/>
                             <constraint firstItem="iZo-Sj-b4Y" firstAttribute="trailing" secondItem="kMu-Oy-HLH" secondAttribute="trailing" id="n98-fM-NSj"/>
                             <constraint firstItem="zbe-gc-1hA" firstAttribute="height" secondItem="gJ3-tZ-V4U" secondAttribute="height" multiplier="0.02" id="nfl-Pk-UK0"/>
+                            <constraint firstItem="wDJ-UW-DIM" firstAttribute="width" secondItem="hzK-gK-hYd" secondAttribute="width" multiplier="0.7" id="oAp-I1-eRp"/>
                             <constraint firstItem="gJ3-tZ-V4U" firstAttribute="leading" secondItem="iZo-Sj-b4Y" secondAttribute="leading" id="odO-Vt-m2Y"/>
                             <constraint firstItem="m9U-2i-QMz" firstAttribute="leading" secondItem="gJ3-tZ-V4U" secondAttribute="trailing" constant="45" id="ohI-Wq-Ff7"/>
                             <constraint firstItem="sqb-mm-eGK" firstAttribute="height" secondItem="gJ3-tZ-V4U" secondAttribute="height" multiplier="0.05" id="owt-Tq-f1n"/>
@@ -1510,40 +1514,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="WMb-C9-VrV" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="92.333333333333329" y="215" width="190.33333333333337" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z96-1q-2uE">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wWF-fl-Jsd" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yuz-Le-17G" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N6b-HS-dOW" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="190.33333333333334" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyY-PO-WJt" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="190.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQN-IC-vnO" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="190.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -1685,6 +1689,7 @@
                         <constraints>
                             <constraint firstItem="hyW-Ds-9aa" firstAttribute="top" secondItem="Cbc-hb-gKM" secondAttribute="top" id="1Ly-oU-cY8"/>
                             <constraint firstItem="aoq-uy-xRX" firstAttribute="leading" secondItem="CEE-db-YC8" secondAttribute="trailing" id="2bK-VV-AJj"/>
+                            <constraint firstItem="WMb-C9-VrV" firstAttribute="width" secondItem="cL8-2b-8WU" secondAttribute="width" multiplier="0.7" id="4cb-qS-jqH"/>
                             <constraint firstItem="leF-Aw-6QH" firstAttribute="height" secondItem="CEE-db-YC8" secondAttribute="height" multiplier="0.05" id="606-ia-Enx"/>
                             <constraint firstItem="fXA-Ic-SCA" firstAttribute="centerX" secondItem="Cbc-hb-gKM" secondAttribute="centerX" id="7IN-fS-b9m"/>
                             <constraint firstItem="fXA-Ic-SCA" firstAttribute="top" secondItem="XYR-u3-Qt1" secondAttribute="bottom" id="BcT-ET-eTf"/>
@@ -1797,40 +1802,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="2Gv-av-KxT" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="92.333333333333329" y="215" width="190.33333333333337" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CLh-bx-BNE">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrh-1c-iXB" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hxA-Ra-krA" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="190.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vw2-Xu-0f0" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="190.33333333333334" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3l8-cC-HKP" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="190.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jrs-qQ-q6L" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="190.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2015,6 +2020,7 @@
                             <constraint firstItem="2Gv-av-KxT" firstAttribute="centerX" secondItem="n2z-ed-8jQ" secondAttribute="centerX" id="tXg-sT-OGy"/>
                             <constraint firstItem="9Pk-pY-kgF" firstAttribute="trailing" secondItem="UCw-nS-szA" secondAttribute="trailing" id="uWA-Gr-l5L"/>
                             <constraint firstItem="UNt-Ym-3Am" firstAttribute="leading" secondItem="WsM-c1-Uwh" secondAttribute="trailing" id="xpc-MW-hHe"/>
+                            <constraint firstItem="2Gv-av-KxT" firstAttribute="width" secondItem="wRS-rO-Zga" secondAttribute="width" multiplier="0.7" id="yWU-cL-oXm"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UCw-nS-szA"/>
                     </view>
@@ -2084,40 +2090,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="vt0-Iv-Hq4" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="119.33333333333333" y="215" width="136.33333333333337" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQB-iq-rJk">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="136.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o8P-m5-b1M" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="136.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpj-34-sXM" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="136.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMP-Zy-T0Y" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="136.33333333333334" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gid-uk-cVN" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="136.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzp-lK-ADL" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="136.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2287,6 +2293,7 @@
                             <constraint firstItem="0yZ-ec-1dB" firstAttribute="height" secondItem="NeC-bQ-og3" secondAttribute="height" id="iw8-kx-ufa"/>
                             <constraint firstItem="S3M-WQ-94O" firstAttribute="centerX" secondItem="Zlx-wQ-TNp" secondAttribute="centerX" constant="-60" id="jfW-3w-v96"/>
                             <constraint firstItem="vt0-Iv-Hq4" firstAttribute="height" secondItem="D1f-Bz-WeD" secondAttribute="height" multiplier="0.29" id="kAJ-Jk-1Yw"/>
+                            <constraint firstItem="vt0-Iv-Hq4" firstAttribute="width" secondItem="XT0-Vb-5uX" secondAttribute="width" multiplier="0.5" id="kbt-1m-aPO"/>
                             <constraint firstItem="NeC-bQ-og3" firstAttribute="height" secondItem="D1f-Bz-WeD" secondAttribute="height" multiplier="0.05" id="kgU-ZB-Y10"/>
                             <constraint firstItem="XT0-Vb-5uX" firstAttribute="height" secondItem="D1f-Bz-WeD" secondAttribute="height" multiplier="0.5" id="lXe-hr-sTF"/>
                             <constraint firstItem="Oo7-ko-k1M" firstAttribute="trailing" secondItem="UB7-RW-WeS" secondAttribute="trailing" id="ltY-hq-CsW"/>
@@ -2371,40 +2378,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="flP-wf-YoJ" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="85.333333333333329" y="215" width="204.33333333333337" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4c-qH-8Ec">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="204.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Jl-C8-1Sc" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="204.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="spu-iL-atZ" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="204.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pG4-B2-vym" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="204.33333333333334" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ij-jt-daa" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="204.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdT-kA-i5J" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="204.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2585,6 +2592,7 @@
                             <constraint firstItem="vwD-Ol-f1P" firstAttribute="top" secondItem="9XS-VO-E9D" secondAttribute="top" id="k5x-rC-0Np"/>
                             <constraint firstItem="6Or-A5-vkS" firstAttribute="leading" secondItem="9XS-VO-E9D" secondAttribute="leading" id="mNq-L8-WRx"/>
                             <constraint firstItem="vwD-Ol-f1P" firstAttribute="height" secondItem="FwR-Hz-J9R" secondAttribute="height" multiplier="0.05" id="r5Q-YU-i29"/>
+                            <constraint firstItem="flP-wf-YoJ" firstAttribute="width" secondItem="SJQ-dK-lWd" secondAttribute="width" multiplier="0.75" id="t97-DR-IHI"/>
                             <constraint firstItem="JZf-Jm-eYD" firstAttribute="leading" secondItem="FwR-Hz-J9R" secondAttribute="trailing" constant="45" id="uBI-Ig-D7J"/>
                             <constraint firstItem="oZt-Sf-hTw" firstAttribute="trailing" secondItem="KSc-YT-ip5" secondAttribute="trailing" id="wzF-8y-XCb"/>
                             <constraint firstItem="0DO-MB-ku2" firstAttribute="top" secondItem="spx-zF-CpI" secondAttribute="bottom" constant="20" id="xAB-bK-hGh"/>
@@ -2658,40 +2666,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="GIi-aK-sIl" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="210.33333333333337" width="240" height="203"/>
+                                <rect key="frame" x="119.33333333333333" y="210.33333333333337" width="136.33333333333337" height="203"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d9B-8V-W3U">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="21.333333333333332"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="136.33333333333334" height="21.333333333333332"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-27-Asu" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="36.333333333333314" width="240" height="21.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="36.333333333333314" width="136.33333333333334" height="21.333333333333329"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HIP-bY-d8t" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="72.666666666666657" width="240" height="21.333333333333329"/>
+                                        <rect key="frame" x="0.0" y="72.666666666666657" width="136.33333333333334" height="21.333333333333329"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HU0-Rb-LCE" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="108.99999999999997" width="240" height="21.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="108.99999999999997" width="136.33333333333334" height="21.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3K6-EY-62S" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="145.33333333333334" width="240" height="21.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="145.33333333333334" width="136.33333333333334" height="21.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nQX-yg-mbN" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="181.66666666666666" width="240" height="21.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="181.66666666666666" width="136.33333333333334" height="21.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2846,6 +2854,7 @@
                             <constraint firstItem="U6R-D2-qdC" firstAttribute="trailing" secondItem="gbA-uJ-ByW" secondAttribute="trailing" id="9u9-53-IlE"/>
                             <constraint firstItem="GIi-aK-sIl" firstAttribute="centerX" secondItem="dVI-uT-Cyc" secondAttribute="centerX" id="AGR-0G-VEF"/>
                             <constraint firstItem="U6R-D2-qdC" firstAttribute="top" secondItem="GIi-aK-sIl" secondAttribute="bottom" id="GlI-Ah-GNw"/>
+                            <constraint firstItem="GIi-aK-sIl" firstAttribute="width" secondItem="fnX-rN-fBe" secondAttribute="width" multiplier="0.5" id="HdI-gG-auM"/>
                             <constraint firstAttribute="bottom" secondItem="OnE-Eq-9eO" secondAttribute="bottom" id="HpC-OG-feZ"/>
                             <constraint firstItem="OnE-Eq-9eO" firstAttribute="leading" secondItem="dVI-uT-Cyc" secondAttribute="leading" id="IJu-I1-wuG"/>
                             <constraint firstItem="pdL-Z2-LRc" firstAttribute="top" secondItem="dVI-uT-Cyc" secondAttribute="top" id="JOJ-Hw-mRM"/>
@@ -2936,7 +2945,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipm-fK-CE3">
-                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
+                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -2952,40 +2961,40 @@
                                 </constraints>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="03I-Mg-Bhe" userLabel="ラベルStack View">
-                                <rect key="frame" x="67.666666666666686" y="215" width="240" height="225.33333333333337"/>
+                                <rect key="frame" x="74.333333333333329" y="215" width="226.33333333333337" height="225.33333333333337"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Z7-iM-Lk0">
-                                        <rect key="frame" x="0.0" y="0.0" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="226.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RPu-Pg-bmX" userLabel="Label2">
-                                        <rect key="frame" x="0.0" y="18" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="18" width="226.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lKA-Pj-gDZ" userLabel="Label3">
-                                        <rect key="frame" x="0.0" y="36" width="240" height="0.0"/>
+                                        <rect key="frame" x="0.0" y="36" width="226.33333333333334" height="0.0"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2R-K7-MpE" userLabel="Label4">
-                                        <rect key="frame" x="0.0" y="54" width="240" height="35.333333333333343"/>
+                                        <rect key="frame" x="0.0" y="54" width="226.33333333333334" height="35.333333333333343"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32g-ie-hc3" userLabel="Label5">
-                                        <rect key="frame" x="0.0" y="107.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="107.33333333333331" width="226.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2px-Ml-eEO" userLabel="Label6">
-                                        <rect key="frame" x="0.0" y="175.33333333333331" width="240" height="50"/>
+                                        <rect key="frame" x="0.0" y="175.33333333333331" width="226.33333333333334" height="50"/>
                                         <fontDescription key="fontDescription" name="JK-Gothic-M" family="JK Gothic M" pointSize="18"/>
                                         <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2993,10 +3002,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Giy-Fu-skf" userLabel="左Stack View">
-                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
+                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reO-yA-XyS">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -3012,7 +3021,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uac-Bu-ywH">
-                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -3028,7 +3037,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCo-2u-YJz">
-                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -3046,10 +3055,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="auP-YI-ZHh" userLabel="右Stack View">
-                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
+                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjz-Xb-F3I">
-                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -3065,7 +3074,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mv-nT-6je">
-                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -3081,7 +3090,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkq-cE-dtM">
-                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
+                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -3099,7 +3108,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyi-Us-Igc">
-                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3109,7 +3118,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swo-rp-HZD">
-                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
+                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3128,6 +3137,7 @@
                             <constraint firstItem="l4t-ng-EOd" firstAttribute="trailing" secondItem="UWV-bN-t0Z" secondAttribute="trailing" id="2LA-Vl-9NU"/>
                             <constraint firstItem="UWV-bN-t0Z" firstAttribute="leading" secondItem="7b8-6z-JE1" secondAttribute="leading" id="2yu-nY-zAk"/>
                             <constraint firstItem="sEN-B3-Yis" firstAttribute="height" secondItem="xNa-nK-07G" secondAttribute="height" multiplier="0.1" id="3KQ-Kk-ul5"/>
+                            <constraint firstItem="03I-Mg-Bhe" firstAttribute="width" secondItem="xNa-nK-07G" secondAttribute="width" multiplier="0.83" id="3Sq-E4-130"/>
                             <constraint firstItem="Giy-Fu-skf" firstAttribute="centerX" secondItem="7b8-6z-JE1" secondAttribute="centerX" constant="-60" id="62C-xp-T5F"/>
                             <constraint firstItem="l4t-ng-EOd" firstAttribute="bottom" secondItem="z2R-b7-hGk" secondAttribute="bottom" id="7mP-Kn-wth"/>
                             <constraint firstItem="Swo-rp-HZD" firstAttribute="height" secondItem="Xyi-Us-Igc" secondAttribute="height" id="8RU-yh-0iO"/>
