@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 53;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -142,6 +142,7 @@
 				ED87A7E92470112A00869C88 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		ED87A7E92470112A00869C88 /* Products */ = {
 			isa = PBXGroup;
@@ -301,7 +302,7 @@
 				};
 			};
 			buildConfigurationList = ED87A7E32470112A00869C88 /* Build configuration list for PBXProject "MenuMaker" */;
-			compatibilityVersion = "Xcode 11.4";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -435,6 +436,7 @@
 		ED87A8102470112D00869C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -495,6 +497,7 @@
 		ED87A8112470112D00869C88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -549,10 +552,11 @@
 		ED87A8132470112D00869C88 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.1.0;
+				CURRENT_PROJECT_VERSION = 1.0.5.0;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = MenuMaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -560,7 +564,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.MenuMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "L12YoshikiFujita-Distribution";
@@ -572,10 +576,11 @@
 		ED87A8142470112D00869C88 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1.0.1.0;
+				CURRENT_PROJECT_VERSION = 1.0.5.0;
 				DEVELOPMENT_TEAM = 2K446D59RQ;
 				INFOPLIST_FILE = MenuMaker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
@@ -583,7 +588,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.lifeistech.MenuMaker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "L12YoshikiFujita-Distribution";
