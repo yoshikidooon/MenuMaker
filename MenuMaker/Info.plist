@@ -21,11 +21,11 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSCameraUsageDescription</key>
-	<string></string>
+	<string>カメラへのアクセスを許可</string>
 	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string></string>
+	<string>アルバムへの画像の保存を許可</string>
 	<key>NSPhotoLibraryUsageDescription</key>
-	<string></string>
+	<string>アルバムへのアクセスを許可</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

@@ -117,7 +117,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-730" y="52"/>
+            <point key="canvasLocation" x="-730" y="81"/>
         </scene>
         <!--AV Player View Controller-->
         <scene sceneID="8sm-GO-A9T">
@@ -125,7 +125,7 @@
                 <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="uH0-aJ-GvZ" customClass="TutorialVideoPlayerViewController" customModule="MenuMaker" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X8d-rz-7zT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-730" y="794"/>
+            <point key="canvasLocation" x="-730" y="833"/>
         </scene>
         <!--Choose Menu View Controller-->
         <scene sceneID="1Zl-YO-51t">
@@ -300,7 +300,7 @@
                         <segue destination="BaF-QY-9a1" kind="presentation" identifier="menu3" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="tzW-Tq-o9r"/>
                         <segue destination="aga-HN-EyV" kind="presentation" identifier="menu4" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="P1o-G3-uCc"/>
                         <segue destination="nNB-Vn-kwG" kind="presentation" identifier="menu5" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="TX7-IZ-D77"/>
-                        <segue destination="lnh-nK-UC4" kind="presentation" identifier="mrnu6" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fmj-Wm-GnS"/>
+                        <segue destination="lnh-nK-UC4" kind="presentation" identifier="menu6" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="fmj-Wm-GnS"/>
                         <segue destination="djP-pq-UU7" kind="presentation" identifier="menu7" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="qNA-Ae-tb2"/>
                         <segue destination="Ihk-5E-f8I" kind="presentation" identifier="menu8" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="xbM-8p-tSD"/>
                         <segue destination="Gdd-vG-gl2" kind="presentation" identifier="menu9" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="NVK-5K-GKn"/>
@@ -346,7 +346,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snr-fa-4RK">
-                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
+                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -403,10 +403,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="AyX-sc-W94" userLabel="左Stack View">
-                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
+                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1zN-iz-FjW">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -422,7 +422,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yqh-sg-WcE">
-                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -438,7 +438,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRN-he-8Cd">
-                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -456,10 +456,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="wJV-q5-lhH" userLabel="右Stack View">
-                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
+                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yxL-bD-4Fg">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -475,7 +475,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jz-Bv-QyC">
-                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -491,7 +491,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wu-a7-FLu">
-                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -509,7 +509,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aai-CB-9rB">
-                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -519,7 +519,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mQD-CZ-d6n">
-                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -634,7 +634,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5hm-LN-E2X">
-                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
+                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -691,10 +691,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="h9s-1S-3dw" userLabel="左Stack View">
-                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
+                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IDL-Z2-bZW">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -710,7 +710,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqD-Mq-5R8">
-                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -726,7 +726,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uyP-YE-GxA">
-                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -744,10 +744,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="0Ex-7M-ALU" userLabel="右Stack View">
-                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
+                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cUU-bd-lRu">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -763,7 +763,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KIj-9F-R5x">
-                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -779,7 +779,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dXe-lY-tL2">
-                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -797,7 +797,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xa4-8H-ijj">
-                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -807,7 +807,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efm-37-4xH">
-                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -922,7 +922,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="umK-y4-5Bv">
-                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
+                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -979,10 +979,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="JKD-Me-As4" userLabel="左Stack View">
-                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
+                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oDC-08-3ML">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -998,7 +998,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T4I-QE-Lkn">
-                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -1014,7 +1014,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hUR-Wq-LMS">
-                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -1032,10 +1032,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="pTL-z0-5Hf" userLabel="右Stack View">
-                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
+                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j6D-lA-Lde">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -1051,7 +1051,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RWu-tk-62N">
-                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -1067,7 +1067,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wNf-ey-hG2">
-                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -1085,7 +1085,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVn-CW-qwU">
-                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -1095,7 +1095,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTr-rV-iLC">
-                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -2945,7 +2945,7 @@
                                 <color key="backgroundColor" red="1" green="0.93333333330000001" blue="0.89019607840000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menuを作成しよう" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ipm-fK-CE3">
-                                <rect key="frame" x="68.333333333333329" y="39" width="238.66666666666669" height="38.666666666666657"/>
+                                <rect key="frame" x="92.666666666666671" y="39" width="189.66666666666663" height="38.666666666666657"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="28"/>
                                 <color key="textColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3002,10 +3002,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="Giy-Fu-skf" userLabel="左Stack View">
-                                <rect key="frame" x="67.666666666666671" y="536.33333333333337" width="120.00000000000001" height="178"/>
+                                <rect key="frame" x="75" y="548.33333333333337" width="105" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="reO-yA-XyS">
-                                        <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理１を編集">
@@ -3021,7 +3021,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uac-Bu-ywH">
-                                        <rect key="frame" x="0.0" y="71" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理3を編集">
@@ -3037,7 +3037,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCo-2u-YJz">
-                                        <rect key="frame" x="0.0" y="142" width="120" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="105" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理5を編集">
@@ -3055,10 +3055,10 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="auP-YI-ZHh" userLabel="右Stack View">
-                                <rect key="frame" x="191.66666666666666" y="536.33333333333337" width="111.99999999999997" height="178"/>
+                                <rect key="frame" x="194.66666666666666" y="548.33333333333337" width="105.99999999999997" height="166"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjz-Xb-F3I">
-                                        <rect key="frame" x="0.0" y="0.0" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理2を編集">
@@ -3074,7 +3074,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mv-nT-6je">
-                                        <rect key="frame" x="0.0" y="71" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="67" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理4を編集">
@@ -3090,7 +3090,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkq-cE-dtM">
-                                        <rect key="frame" x="0.0" y="142" width="112" height="36"/>
+                                        <rect key="frame" x="0.0" y="134" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="20"/>
                                         <state key="normal" title="料理6を編集">
@@ -3108,7 +3108,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyi-Us-Igc">
-                                <rect key="frame" x="45" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="45" y="734.33333333333337" width="109" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="保存する">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -3118,7 +3118,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Swo-rp-HZD">
-                                <rect key="frame" x="210" y="734.33333333333337" width="120" height="38.666666666666629"/>
+                                <rect key="frame" x="232" y="734.33333333333337" width="98" height="38.666666666666629"/>
                                 <fontDescription key="fontDescription" name="KAWAIITEGAKIMOJI" family="KAWAIITEGAKIMOJI" pointSize="30"/>
                                 <state key="normal" title="ホームへ">
                                     <color key="titleColor" red="0.066666666669999999" green="0.066666666669999999" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
